@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dnt_dialog_width"
+    android:layout_height="@dimen/dnt_dialog_height"
+    android:background="@drawable/bkg_dialog"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/dnt_dialog_layout_margin" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/iv_dhap_00"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_01"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_02"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_03"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_04"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_05"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_06"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_07"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/iv_dhap_08"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_10"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_09"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_11"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_12"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_13"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_14"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_15"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/iv_dhap_16"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_17"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_18"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_19"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_20"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_21"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_22"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_23"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/iv_dhap_24"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_25"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_26"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_27"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_28"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_29"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_30"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+
+        <ImageView
+            android:id="@+id/iv_dhap_31"
+            android:layout_width="@dimen/dnt_audience_size"
+            android:layout_height="@dimen/dnt_audience_size"
+            android:layout_margin="@dimen/dnt_audience_margin"
+            android:contentDescription="@drawable/img_audience_off"
+            android:src="@drawable/img_audience_off" />
+    </LinearLayout>
+
+</LinearLayout>

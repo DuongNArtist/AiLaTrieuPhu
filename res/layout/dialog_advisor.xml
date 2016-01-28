@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dnt_dialog_width"
+    android:layout_height="@dimen/dnt_dialog_height"
+    android:background="@drawable/bkg_dialog" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_advisor_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dnt_margin"
+            android:gravity="center"
+            android:text="@string/dnt_helper_advisor"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_advisor_conversation"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/dnt_margin"
+            android:layout_marginRight="@dimen/dnt_margin"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/img_conversation_0"
+            android:gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:baselineAligned="false"
+            android:gravity="center" >
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/iv_advisor_0"
+                    android:layout_width="@dimen/dnt_advisor_size"
+                    android:layout_height="@dimen/dnt_advisor_size"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dnt_advisor_hint_margin"
+                    android:layout_marginStart="@dimen/dnt_advisor_hint_margin"
+                    android:layout_weight="1"
+                    android:contentDescription="@drawable/img_advisor_0"
+                    android:src="@drawable/img_advisor_0" />
+
+                <TextView
+                    android:id="@+id/tv_advisor_0"
+                    android:layout_width="@dimen/dnt_advisor_hint_size"
+                    android:layout_height="@dimen/dnt_advisor_hint_size"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="@dimen/dnt_advisor_hint_margin"
+                    android:layout_marginRight="@dimen/dnt_advisor_hint_margin"
+                    android:background="@drawable/shape_oval"
+                    android:gravity="center"
+                    android:text="A"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/iv_advisor_1"
+                    android:layout_width="@dimen/dnt_advisor_size"
+                    android:layout_height="@dimen/dnt_advisor_size"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dnt_advisor_hint_margin"
+                    android:layout_marginStart="@dimen/dnt_advisor_hint_margin"
+                    android:layout_weight="1"
+                    android:contentDescription="@drawable/img_advisor_1"
+                    android:src="@drawable/img_advisor_1" />
+
+                <TextView
+                    android:id="@+id/tv_advisor_1"
+                    android:layout_width="@dimen/dnt_advisor_hint_size"
+                    android:layout_height="@dimen/dnt_advisor_hint_size"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="@dimen/dnt_advisor_hint_margin"
+                    android:layout_marginRight="@dimen/dnt_advisor_hint_margin"
+                    android:background="@drawable/shape_oval"
+                    android:gravity="center"
+                    android:text="A"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/iv_advisor_2"
+                    android:layout_width="@dimen/dnt_advisor_size"
+                    android:layout_height="@dimen/dnt_advisor_size"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dnt_advisor_hint_margin"
+                    android:layout_marginStart="@dimen/dnt_advisor_hint_margin"
+                    android:layout_weight="1"
+                    android:contentDescription="@drawable/img_advisor_2"
+                    android:src="@drawable/img_advisor_2" />
+
+                <TextView
+                    android:id="@+id/tv_advisor_2"
+                    android:layout_width="@dimen/dnt_advisor_hint_size"
+                    android:layout_height="@dimen/dnt_advisor_hint_size"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="@dimen/dnt_advisor_hint_margin"
+                    android:layout_marginRight="@dimen/dnt_advisor_hint_margin"
+                    android:background="@drawable/shape_oval"
+                    android:gravity="center"
+                    android:text="A"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_advisor_close"
+        android:layout_width="@dimen/dnt_close_size"
+        android:layout_height="@dimen/dnt_close_size"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/dnt_close_margin"
+        android:background="@drawable/btn_close" />
+
+</FrameLayout>

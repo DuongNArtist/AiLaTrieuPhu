@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="guide_focus">#FF9500</color>
+    <color name="btnPlay_menu_right">#158f81</color>
+    <color name="btnPlay_menu_left">#107a70</color>
+    <color name="btnRanking_menu_right">#219860</color>
+    <color name="btnRanking_menu_left">#138051</color>
+    <color name="btnHelp_menu_right">#2674ab</color>
+    <color name="btnHelp_menu_left">#2674ab</color>
+    <color name="btnVtv3_menu_right">#9f522f</color>
+    <color name="btnVtv3_menu_left">#854427</color>
+    <color name="list_score">#FF9500</color>
+    <color name="list_week">#071836</color>
+
+</resources>

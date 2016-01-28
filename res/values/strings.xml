@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Who Wants To Be A Millionaire</string>
+    <string name="dnt_username">Username</string>
+    <string name="dnt_password">Password</string>
+    <string name="dnt_login">Login</string>
+    <string name="dnt_facebook">Facebook</string>
+
+    <string-array name="dtn_login_message">
+        <item>Login succeed!</item>
+        <item>Invalid username or password!</item>
+        <item>Unable to insert into database!</item>
+        <item>Username exits!</item>
+        <item>Invalid facebook!</item>
+    </string-array>
+
+    <string name="dnt_splash">Copyright &#169; 2015 Skynet Viet Nam. All rights reserved.</string>
+    <string name="dnt_money">USD</string>
+    <string name="dnt_ok">OK</string>
+    <string name="dnt_yes">Yes</string>
+    <string name="dnt_no">No</string>
+    <string name="dnt_index_05" formatted="false">You are at 5th question.\nThis is important point, if you pass it, your money will be %1$s and more bonus lifeline.\nGoodluck!</string>
+    <string name="dnt_index_10" formatted="false">You are at 10th question.\nThis is important point, if you pass it, your money will be %1$s.\nGoodluck!</string>
+    <string name="dnt_index_15" formatted="false">You are at 15th question.\nThis is important point, if you pass it, you will be Millionaire.\nGoodluck!</string>
+    <string name="dnt_final" formatted="false">Is %1$s your final answer?</string>
+    <string name="dnt_helper" formatted="false">Do you want to use \"%1$s\" life line?</string>
+    <string name="dnt_exit">Do you want to exit game?</string>
+    <string name="dnt_save" formatted="false">Your money is\n%1$s USD.\nDo you want to save your money?</string>
+    <string name="dnt_quit">Do you want to stop game?</string>
+    <string name="dnt_replay">Do you want to replay game?</string>
+    <string name="dnt_helper_buddy">Call a buddy</string>
+    <string name="dnt_helper_audience">Ask the audience</string>
+    <string name="dnt_helper_advisor">Ask the advisor</string>
+    <string name="dnt_saved">Your money is saved!</string>
+    <string name="dnt_unsaved">Your money isn\'t saved! Do you want to retry?</string>
+    <string name="dnt_start">Start</string>
+    <string name="dnt_ready">Are you ready?</string>
+    <string name="dnt_download">Download</string>
+    <string name="dnt_option_0">A</string>
+    <string name="dnt_option_1">B</string>
+    <string name="dnt_option_2">C</string>
+    <string name="dnt_option_3">D</string>
+    <string name="dnt_advisor" formatted="false">I am sure the right answer is %1$s because I have read it %2$s times!</string>
+    <string name="dnt_buddy_00" formatted="false">Hello %1$s!\nYour friend is playing at %2$s th question, money value is %3$s and need your help!</string>
+    <string name="dnt_buddy_01" formatted="false">The right answer is %1$s.</string>
+    <string name="dnt_buddy_02" formatted="false">All right!\nMy final answer is %1$s.\nThankyou %2$s!</string>
+    <string name="dnt_no_question">We haven\'t package of this language! Please repick an other language!</string>
+    <string name="dnt_greeting" formatted="false">Hello: %1$s!</string>
+    <string name="dnt_unloaded">Sorry, unable to load image question!</string>
+    <string name="dnt_repick">Repick</string>
+    <string name="dnt_week">Week</string>
+
+    <string-array name="dnt_helper_names">
+        <item>50:50</item>
+        <item>Call A Buddy</item>
+        <item>Ask The Audience</item>
+        <item>Ask The Advisor</item>
+    </string-array>
+    <string-array name="dnt_buddy_names">
+        <item>Ensteins</item>
+        <item>Messi</item>
+        <item>CR7</item>
+        <item>Angelina Jolie</item>
+        <item>Obama</item>
+        <item>Taylor Swift</item>
+    </string-array>
+    <string-array name="dnt_money_values">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+        <item>1.000</item>
+        <item>2.000</item>
+        <item>4.000</item>
+        <item>8.000</item>
+        <item>16.000</item>
+        <item>32.000</item>
+        <item>64.000</item>
+        <item>125.000</item>
+        <item>250.000</item>
+        <item>500.000</item>
+        <item>1.000.000</item>
+    </string-array>
+
+    <string name="bmv_menu_play">Play</string>
+    <string name="bmv_menu_rank">Ranking</string>
+    <string name="bmv_menu_help">Guide</string>
+    <string name="bmv_menu_vtv3">Interactive TV</string>
+    <string name="bmv_rank_all">All</string>
+    <string name="bmv_rank_vtv3">TV Chanel</string>
+    <string name="bmv_help_0">Player going to pas 15 questions of game and have 3 important point is 5, 10, 15. Player have 5 help when playng is:</string>
+    <string name="bmv_help_1">End of game</string>
+    <string name="bmv_help_2">Exclude 2 wrong answers</string>
+    <string name="bmv_help_3">Call a buddy</string>
+    <string name="bmv_help_4">Ask the audience</string>
+    <string name="bmv_help_5">Ask the advisor</string>
+    <string name="bmv_help_6">30 seconds is the time you have to answer per questions. When you select correct answer you have the score respective in the importance before.</string>
+    <string name="bmv_help_7">Good luck!</string>
+    <string name="bmv_selected_week" formatted="false">Do you want to answer package of week %s?</string>
+    <string name="bmv_notify_direct_vtv3">Now is in interactive VTV3. Do you want to join it?</string>
+    <string name="bmv_connect_false">Connect failed! Do you want to reconnect?</string>
+    <string name="bmv_base_play_question">Please wait for next question!</string>
+    <string name="bmv_question_direct">Please wait for new question.</string>
+    <string name="bmv_question_indirect">Please select week do you like!</string>
+    <string name="bmv_time_out">Interactive is timeout. Do you want to play last week package question?!</string>
+    <string name="bmv_has_not_connect">No internet connection. Please connect internet!</string>
+    <string name="bmv_answer_player_true">Answer: True</string>
+    <string name="bmv_answer_player_false">Answer: False</string>
+    <string name="bmv_question_numble">Question: </string>
+    <string name="bmv_time_in_vtv3">Showing during interaction with VTV3. Do you want to answer the question?</string>
+    <string name="bmv_login_false">Login false !</string>
+    <string name="bmv_join_vtv3_false">Disconnect to TV! Do you want to connect again?</string>
+
+    <string-array name="dnt_languages">
+        <item>us</item>
+        <item>vn</item>
+        <item>ru</item>
+        <item>fr</item>
+        <item>it</item>
+        <item>ar</item>
+        <item>id</item>
+        <item>es</item>
+        <item>bs</item>
+    </string-array>
+
+</resources>

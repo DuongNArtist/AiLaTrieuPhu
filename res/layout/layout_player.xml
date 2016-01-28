@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnl_item_rank_playerVtv3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <com.skynet.ailatrieuphu.widgets.CircleImageView
+        android:id="@+id/img_player_rank_vtv3_avatar"
+        android:layout_width="@dimen/dnt_player_size"
+        android:layout_height="@dimen/dnt_player_size"
+        android:layout_margin="@dimen/dnt_margin"
+        android:contentDescription="@drawable/ic_launcher"
+        android:src="@drawable/img_player" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_player_rank_direct_name"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_player_rank_direct_score"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textColor="@color/list_score"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

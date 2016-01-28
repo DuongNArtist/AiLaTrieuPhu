@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bkg_main"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end|center_vertical" >
+
+        <TextView
+            android:id="@+id/tv_greeting"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dnt_margin"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/bt_menu_en"
+            android:layout_width="@dimen/dnt_flag_width"
+            android:layout_height="@dimen/dnt_flag_height"
+            android:layout_marginBottom="@dimen/dnt_margin"
+            android:layout_marginTop="@dimen/dnt_margin"
+            android:background="@drawable/flag_00_normal" />
+
+        <Button
+            android:id="@+id/bt_menu_vi"
+            android:layout_width="@dimen/dnt_flag_width"
+            android:layout_height="@dimen/dnt_flag_height"
+            android:layout_margin="@dimen/dnt_margin"
+            android:background="@drawable/flag_01_normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_menu_logo"
+            android:layout_width="@dimen/dnt_logo_menu_size"
+            android:layout_height="@dimen/dnt_logo_menu_size"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@drawable/img_logo_en"
+            android:src="@drawable/img_logo_en" />
+
+        <Button
+            android:id="@+id/bt_menu_normal"
+            android:layout_width="@dimen/dnt_button_width"
+            android:layout_height="@dimen/dnt_button_height"
+            android:layout_margin="@dimen/dnt_margin"
+            android:background="@drawable/btn_play"
+            android:paddingEnd="0dp"
+            android:paddingLeft="@dimen/dnt_button_padding"
+            android:paddingRight="0dp"
+            android:paddingStart="@dimen/dnt_button_padding"
+            android:text="@string/bmv_menu_play"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/bt_menu_rank"
+            android:layout_width="@dimen/dnt_button_width"
+            android:layout_height="@dimen/dnt_button_height"
+            android:layout_margin="@dimen/dnt_margin"
+            android:background="@drawable/btn_rank"
+            android:paddingEnd="0dp"
+            android:paddingLeft="@dimen/dnt_button_padding"
+            android:paddingRight="0dp"
+            android:paddingStart="@dimen/dnt_button_padding"
+            android:text="@string/bmv_menu_rank"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/bt_menu_help"
+            android:layout_width="@dimen/dnt_button_width"
+            android:layout_height="@dimen/dnt_button_height"
+            android:layout_margin="@dimen/dnt_margin"
+            android:background="@drawable/btn_help"
+            android:paddingEnd="0dp"
+            android:paddingLeft="@dimen/dnt_button_padding"
+            android:paddingRight="0dp"
+            android:paddingStart="@dimen/dnt_button_padding"
+            android:text="@string/bmv_menu_help"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/bt_menu_vtv3"
+            android:layout_width="@dimen/dnt_button_width"
+            android:layout_height="@dimen/dnt_button_height"
+            android:layout_margin="@dimen/dnt_margin"
+            android:background="@drawable/btn_vtv3"
+            android:paddingEnd="0dp"
+            android:paddingLeft="@dimen/dnt_button_padding"
+            android:paddingRight="0dp"
+            android:paddingStart="@dimen/dnt_button_padding"
+            android:text="@string/bmv_menu_vtv3"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</FrameLayout>

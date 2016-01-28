@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dnt_dialog_width"
+    android:layout_height="@dimen/dnt_dialog_height"
+    android:background="@drawable/bkg_dialog" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.skynet.ailatrieuphu.widgets.CircleImageView
+            android:id="@+id/iv_buddy_avatar"
+            android:layout_width="@dimen/dnt_helper_size"
+            android:layout_height="@dimen/dnt_helper_size"
+            android:layout_marginTop="@dimen/dnt_margin"
+            android:contentDescription="@drawable/img_buddy_en_00"
+            android:src="@drawable/img_buddy_en_00" />
+
+        <com.skynet.ailatrieuphu.widgets.TyperTextView
+            android:id="@+id/tv_buddy_conversation"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/dnt_margin"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/dnt_padding"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_buddy_close"
+        android:layout_width="@dimen/dnt_close_size"
+        android:layout_height="@dimen/dnt_close_size"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/dnt_close_margin"
+        android:background="@drawable/btn_close" />
+
+</FrameLayout>

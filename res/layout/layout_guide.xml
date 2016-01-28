@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_guide"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkg_guide"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/dnt_padding" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/iv_guide_helper_0"
+            android:layout_width="@dimen/dnt_helper_size"
+            android:layout_height="@dimen/dnt_helper_size"
+            android:layout_margin="@dimen/dnt_margin"
+            android:contentDescription="@drawable/btn_fifty_0"
+            android:src="@drawable/btn_fifty_0" />
+
+        <ImageView
+            android:id="@+id/iv_guide_helper_1"
+            android:layout_width="@dimen/dnt_helper_size"
+            android:layout_height="@dimen/dnt_helper_size"
+            android:layout_margin="@dimen/dnt_margin"
+            android:contentDescription="@drawable/btn_buddy_0"
+            android:src="@drawable/btn_buddy_0" />
+
+        <ImageView
+            android:id="@+id/iv_guide_helper_2"
+            android:layout_width="@dimen/dnt_helper_size"
+            android:layout_height="@dimen/dnt_helper_size"
+            android:layout_margin="@dimen/dnt_margin"
+            android:contentDescription="@drawable/btn_audience_0"
+            android:src="@drawable/btn_audience_0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dnt_value_margin"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_guide_index_14"
+                android:layout_width="@dimen/dnt_index_size"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_guide_value_14"
+                android:layout_width="@dimen/dnt_value_width"
+                android:layout_height="@dimen/dnt_value_height"
+                android:background="@drawable/bkg_level_0"
+                android:gravity="end|center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_guide_value_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/dnt_padding"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="@dimen/dnt_padding"
+                    android:paddingStart="0dp"
+                    android:text="100000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dnt_value_margin"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_guide_index_13"
+                android:layout_width="@dimen/dnt_index_size"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/guide_focus"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_guide_value_13"
+                android:layout_width="@dimen/dnt_value_width"
+                android:layout_height="@dimen/dnt_value_height"
+                android:background="@drawable/bkg_level_0"
+                android:gravity="end|center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_guide_value_13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/dnt_padding"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="@dimen/dnt_padding"
+                    android:paddingStart="0dp"
+                    android:text="100000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/guide_focus"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dnt_value_margin"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_guide_index_12"
+                android:layout_width="@dimen/dnt_index_size"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/guide_focus"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_guide_value_12"
+                android:layout_width="@dimen/dnt_value_width"
+                android:layout_height="@dimen/dnt_value_height"
+                android:background="@drawable/bkg_level_0"
+                android:gravity="end|center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_guide_value_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/dnt_padding"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="@dimen/dnt_padding"
+                    android:paddingStart="0dp"
+                    android:text="100000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/guide_focus"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dnt_value_margin"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_guide_index_11"
+                android:layout_width="@dimen/dnt_index_size"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/guide_focus"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_guide_value_11"
+                android:layout_width="@dimen/dnt_value_width"
+                android:layout_height="@dimen/dnt_value_height"
+                android:background="@drawable/bkg_level_0"
+                android:gravity="end|center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_guide_value_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/dnt_padding"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="@dimen/dnt_padding"
+                    android:paddingStart="0dp"
+                    android:text="100000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/guide_focus"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dnt_value_margin"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_guide_index_10"
+                android:layout_width="@dimen/dnt_index_size"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/guide_focus"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_guide_value_10"
+                android:layout_width="@dimen/dnt_value_width"
+                android:layout_height="@dimen/dnt_value_height"
+                android:background="@drawable/bkg_level_0"
+                android:gravity="end|center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_guide_value_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/dnt_padding"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="@dimen/dnt_padding"
+                    android:paddingStart="0dp"
+                    android:text="100000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/guide_focus"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dnt_value_margin"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_guide_index_09"
+                android:layout_width="@dimen/dnt_index_size"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_guide_value_09"
+                android:layout_width="@dimen/dnt_value_width"
+                android:layout_height="@dimen/dnt_value_height"
+                android:background="@drawable/bkg_level_0"
+                android:gravity="end|center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_guide_value_09"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/dnt_padding"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="@dimen/dnt_padding"
+                    android:paddingStart="0dp"
+                    android:text="100000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dnt_value_margin"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_guide_index_08"
+                android:layout_width="@dimen/dnt_index_size"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/guide_focus"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_guide_value_08"
+                android:layout_width="@dimen/dnt_value_width"
+                android:layout_height="@dimen/dnt_value_height"
+                android:background="@drawable/bkg_level_0"
+                android:gravity="end|center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_guide_value_08"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/dnt_padding"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="@dimen/dnt_padding"
+                    android:paddingStart="0dp"
+                    android:text="100000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/guide_focus"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dnt_value_margin"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_guide_index_07"
+                android:layout_width="@dimen/dnt_index_size"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/guide_focus"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_guide_value_07"
+                android:layout_width="@dimen/dnt_value_width"
+                android:layout_height="@dimen/dnt_value_height"
+                android:background="@drawable/bkg_level_0"
+                android:gravity="end|center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_guide_value_07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/dnt_padding"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="@dimen/dnt_padding"
+                    android:paddingStart="0dp"
+                    android:text="100000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/guide_focus"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dnt_value_margin"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_guide_index_06"
+                android:layout_width="@dimen/dnt_index_size"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/guide_focus"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_guide_value_06"
+                android:layout_width="@dimen/dnt_value_width"
+                android:layout_height="@dimen/dnt_value_height"
+                android:background="@drawable/bkg_level_0"
+                android:gravity="end|center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_guide_value_06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/dnt_padding"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="@dimen/dnt_padding"
+                    android:paddingStart="0dp"
+                    android:text="100000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/guide_focus"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dnt_value_margin"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_guide_index_05"
+                android:layout_width="@dimen/dnt_index_size"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/guide_focus"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_guide_value_05"
+                android:layout_width="@dimen/dnt_value_width"
+                android:layout_height="@dimen/dnt_value_height"
+                android:background="@drawable/bkg_level_0"
+                android:gravity="end|center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_guide_value_05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/dnt_padding"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="@dimen/dnt_padding"
+                    android:paddingStart="0dp"
+                    android:text="100000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/guide_focus"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dnt_value_margin"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_guide_index_04"
+                android:layout_width="@dimen/dnt_index_size"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_guide_value_04"
+                android:layout_width="@dimen/dnt_value_width"
+                android:layout_height="@dimen/dnt_value_height"
+                android:background="@drawable/bkg_level_0"
+                android:gravity="end|center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_guide_value_04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/dnt_padding"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="@dimen/dnt_padding"
+                    android:paddingStart="0dp"
+                    android:text="100000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dnt_value_margin"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_guide_index_03"
+                android:layout_width="@dimen/dnt_index_size"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/guide_focus"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_guide_value_03"
+                android:layout_width="@dimen/dnt_value_width"
+                android:layout_height="@dimen/dnt_value_height"
+                android:background="@drawable/bkg_level_0"
+                android:gravity="end|center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_guide_value_03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/dnt_padding"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="@dimen/dnt_padding"
+                    android:paddingStart="0dp"
+                    android:text="100000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/guide_focus"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dnt_value_margin"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_guide_index_02"
+                android:layout_width="@dimen/dnt_index_size"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/guide_focus"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_guide_value_02"
+                android:layout_width="@dimen/dnt_value_width"
+                android:layout_height="@dimen/dnt_value_height"
+                android:background="@drawable/bkg_level_0"
+                android:gravity="end|center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_guide_value_02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/dnt_padding"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="@dimen/dnt_padding"
+                    android:paddingStart="0dp"
+                    android:text="100000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/guide_focus"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dnt_value_margin"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_guide_index_01"
+                android:layout_width="@dimen/dnt_index_size"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/guide_focus"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_guide_value_01"
+                android:layout_width="@dimen/dnt_value_width"
+                android:layout_height="@dimen/dnt_value_height"
+                android:background="@drawable/bkg_level_0"
+                android:gravity="end|center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_guide_value_01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/dnt_padding"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="@dimen/dnt_padding"
+                    android:paddingStart="0dp"
+                    android:text="100000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/guide_focus"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dnt_value_margin"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_guide_index_00"
+                android:layout_width="@dimen/dnt_index_size"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/guide_focus"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_guide_value_00"
+                android:layout_width="@dimen/dnt_value_width"
+                android:layout_height="@dimen/dnt_value_height"
+                android:background="@drawable/bkg_level_0"
+                android:gravity="end|center_vertical" >
+
+                <TextView
+                    android:id="@+id/tv_guide_value_00"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/dnt_padding"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="@dimen/dnt_padding"
+                    android:paddingStart="0dp"
+                    android:text="100000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/guide_focus"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_guide_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dnt_margin"
+        android:background="@drawable/btn_option"
+        android:text="@string/dnt_start"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

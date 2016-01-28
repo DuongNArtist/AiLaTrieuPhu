@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dnt_dialog_width"
+    android:layout_height="@dimen/dnt_dialog_height"
+    android:layout_gravity="center"
+    android:background="@drawable/bkg_dialog"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_dialog_audience_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dnt_margin"
+            android:gravity="center"
+            android:text="@string/dnt_helper_audience"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dnt_audience_height"
+            android:baselineAligned="false"
+            android:gravity="bottom|center_horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dnt_margin"
+                android:layout_weight="1"
+                android:gravity="bottom|center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_dha_per_0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@android:color/white" />
+
+                <ImageView
+                    android:id="@+id/iv_dha_bar_0"
+                    android:layout_width="@dimen/dnt_dialog_helper_audience_bar_width"
+                    android:layout_height="@dimen/dnt_dialog_helper_audience_bar_height"
+                    android:contentDescription="@drawable/bar_0"
+                    android:src="@drawable/bar_0" />
+
+                <TextView
+                    android:id="@+id/tv_dha_0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dnt_option_0"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dnt_margin"
+                android:layout_weight="1"
+                android:gravity="bottom|center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_dha_per_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@android:color/white" />
+
+                <ImageView
+                    android:id="@+id/iv_dha_bar_1"
+                    android:layout_width="@dimen/dnt_dialog_helper_audience_bar_width"
+                    android:layout_height="@dimen/dnt_dialog_helper_audience_bar_height"
+                    android:contentDescription="@drawable/bar_1"
+                    android:src="@drawable/bar_1" />
+
+                <TextView
+                    android:id="@+id/tv_dha_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dnt_option_1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dnt_margin"
+                android:layout_weight="1"
+                android:gravity="bottom|center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_dha_per_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@android:color/white" />
+
+                <ImageView
+                    android:id="@+id/iv_dha_bar_2"
+                    android:layout_width="@dimen/dnt_dialog_helper_audience_bar_width"
+                    android:layout_height="@dimen/dnt_dialog_helper_audience_bar_height"
+                    android:contentDescription="@drawable/bar_2"
+                    android:src="@drawable/bar_2" />
+
+                <TextView
+                    android:id="@+id/tv_dha_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dnt_option_2"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dnt_margin"
+                android:layout_weight="1"
+                android:gravity="bottom|center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_dha_per_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@android:color/white" />
+
+                <ImageView
+                    android:id="@+id/iv_dha_bar_3"
+                    android:layout_width="@dimen/dnt_dialog_helper_audience_bar_width"
+                    android:layout_height="@dimen/dnt_dialog_helper_audience_bar_height"
+                    android:contentDescription="@drawable/bar_3"
+                    android:src="@drawable/bar_3" />
+
+                <TextView
+                    android:id="@+id/tv_dha_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dnt_option_3"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_dha_close"
+        android:layout_width="@dimen/dnt_close_size"
+        android:layout_height="@dimen/dnt_close_size"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/dnt_close_margin"
+        android:background="@drawable/btn_close" />
+
+</FrameLayout>

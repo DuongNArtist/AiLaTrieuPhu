@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ai là triệu phú</string>
+    <string name="dnt_username">Tên người dùng</string>
+    <string name="dnt_password">Mật khẩu</string>
+    <string name="dnt_login">Đăng nhập</string>
+    <string name="dnt_facebook">Facebook</string>
+
+    <string-array name="dtn_login_message">
+        <item>Đăng nhập thành công!</item>
+        <item>Tên người dùng hoặc mật khẩu không hợp lệ!</item>
+        <item>Không thể thêm vào cơ sở dữ liệu!</item>
+        <item>Tên người dùng đã tồn tại!</item>
+        <item>Facebook không hợp lệ!</item>
+    </string-array>
+
+    <string name="dnt_splash">Copyright &#169; 2015 Skynet Viet Nam. All rights reserved.</string>
+    <string name="dnt_money">VNĐ</string>
+    <string name="dnt_ok">Đồng ý</string>
+    <string name="dnt_yes">Có</string>
+    <string name="dnt_no">Không</string>
+    <string name="dnt_index_05" formatted="false">Hiện bạn đang ở câu số 5.\nĐây là 1 mốc rất quan trọng nếu vượt qua bạn sẽ có số tiền là %1$s và thêm 1 sự trợ giúp.\nChúc bạn may mắn!</string>
+    <string name="dnt_index_10" formatted="false">Hiện bạn đang ở câu số 10.\nĐây là 1 mốc rất quan trọng nếu vượt qua bạn sẽ có số tiền là %1$s.\nChúc bạn may mắn!</string>
+    <string name="dnt_index_15" formatted="false">Hiện bạn đang ở câu số 15.\nĐây là 1 mốc rất quan trọng nếu vượt qua bạn sẽ trở thành triệu phú với số tiền %1$s.\nChúc bạn may mắn!</string>
+    <string name="dnt_final" formatted="false">Bạn có chắc chắn %1$s là câu trả lời cuối cùng không?</string>
+    <string name="dnt_helper" formatted="false">Bạn có muốn sử dụng sự trợ giúp \"%1$s\" không?</string>
+    <string name="dnt_exit">Bạn có muốn thoát trò chơi không?</string>
+    <string name="dnt_save" formatted="false">Số tiền của bạn đạt được là\n%1$s VNĐ.\nBạn có muốn lưu số tiền này không?</string>
+    <string name="dnt_quit">Bạn có muốn dừng cuộc chơi hay không?</string>
+    <string name="dnt_replay">Bạn có muốn chơi lại hay không?</string>
+    <string name="dnt_helper_buddy">Gọi điện thoại cho người thân</string>
+    <string name="dnt_helper_audience">Hỏi ý kiến khán giả</string>
+    <string name="dnt_helper_advisor">Tổ tư vấn tại chỗ</string>
+    <string name="dnt_saved">Điểm của bạn đã được lưu!</string>
+    <string name="dnt_unsaved">Điểm của bạn chưa được lưu! Bạn muốn lưu điểm lại không?</string>
+    <string name="dnt_start">Bắt đầu</string>
+    <string name="dnt_ready">Bạn đã sẵn sàng chơi với chúng tôi chưa ạ?</string>
+    <string name="dnt_download">Download</string>
+    <string name="dnt_option_0">A</string>
+    <string name="dnt_option_1">B</string>
+    <string name="dnt_option_2">C</string>
+    <string name="dnt_option_3">D</string>
+    <string name="dnt_advisor" formatted="false">Tôi chắc chắn đáp án đúng là %1$s vì tôi đã đọc nó %2$s lần rồi!</string>
+    <string name="dnt_buddy_00" formatted="false">Alo! Xin chào %1$s!\nBạn của bạn đang phải đối mặt với câu hỏi thứ %2$s với giá trị là %3$s và đang cần sự giúp đỡ của bạn!</string>
+    <string name="dnt_buddy_01" formatted="false">Theo tôi đáp án là %1$s.</string>
+    <string name="dnt_buddy_02" formatted="false">Được rồi!\nĐáp án cuối cùng của tôi là %1$s.\nCảm ơn %2$s!</string>
+    <string name="dnt_no_question">Chúng tôi chưa có gói câu hỏi của ngôn ngữ này! Mời bạn chọn lại gói ngôn ngữ khác!</string>
+    <string name="dnt_greeting" formatted="false">Xin chào: %1$s!</string>
+    <string name="dnt_unloaded">Xin lỗi, không thể tải được hình ảnh!</string>
+    <string name="dnt_repick">Chọn lại</string>
+    <string name="dnt_week">Tuần</string>
+
+    <string-array name="dnt_helper_names">
+        <item>50:50</item>
+        <item>Gọi Điện Thoại Cho Người Thân</item>
+        <item>Hỏi Ý Kiến Khán Giả</item>
+        <item>Hỏi Ý Kiến Tổ Tư Vấn</item>
+    </string-array>
+    <string-array name="dnt_buddy_names">
+        <item>Giáo sư Xoay</item>
+        <item>Giáo sư Nguyễn Lân Dũng</item>
+        <item>Giáo sư Ngô Bảo Châu</item>
+        <item>Danh hài Hoài Linh</item>
+        <item>Danh hài Xuân Bắc</item>
+        <item>Danh hài Tự Long</item>
+    </string-array>
+    <string-array name="dnt_money_values">
+        <item>200.000</item>
+        <item>400.000</item>
+        <item>600.000</item>
+        <item>1.000.000</item>
+        <item>2.000.000</item>
+        <item>3.000.000</item>
+        <item>6.000.000</item>
+        <item>10.000.000</item>
+        <item>14.000.000</item>
+        <item>22.000.000</item>
+        <item>30.000.000</item>
+        <item>40.000.000</item>
+        <item>60.000.000</item>
+        <item>85.000.000</item>
+        <item>150.000.000</item>
+    </string-array>
+
+    <string name="bmv_menu_play">Chơi</string>
+    <string name="bmv_menu_rank">Xếp hạng</string>
+    <string name="bmv_menu_help">Hướng dẫn</string>
+    <string name="bmv_menu_vtv3">Tương tác VTV3</string>
+    <string name="bmv_rank_all">Tất cả</string>
+    <string name="bmv_rank_vtv3">Kênh TV </string>
+    <string name="bmv_help_0">Bạn sẽ vượt qua 15 câu hỏi của chương trình
+         và có 3 mốc rất quan trọng là 5, 10, 15. Có 5 sự trợ giúp cho bạn trong 
+         quá trình chơi.</string>
+    <string name="bmv_help_1">Dừng cuộc chơi</string>
+    <string name="bmv_help_2">Bỏ đi 2 phương án sai.</string>
+    <string name="bmv_help_3">Sự trợ giúp của chuyên gia.</string>
+    <string name="bmv_help_4">Sự trợ giúp của tổ tư vấn.</string>
+    <string name="bmv_help_5">Sự trợ giúp của khán giả.</string>
+    <string name="bmv_help_6">Bạn có 30s để trả lời mỗi câu hỏi. Trả lời đúng mỗi câu bạn sẽ nhận được
+              mức phần thưởng tương ứng. Trả lời sai hoặc hết thời gian bạn nhận 
+              được phần thưởng ở mức quan trọng trước đó.</string>
+    <string name="bmv_help_7">Chúc bạn may mắn!</string>
+    <string name="bmv_selected_week" formatted="false">Bạn muốn trả lời câu hỏi của tuần %s không?</string>
+    <string name="bmv_notify_direct_vtv3">Hiện giờ đang trong thời gian trực tiếp VTV3. Bạn muốn tham gia không?</string>
+    <string name="bmv_connect_false">Kết nối thất bại! Bạn có muốn kết nối lại?</string>
+    <string name="bmv_question_direct">Xin vui lòng đợi câu hỏi tiếp theo!</string>
+    <string name="bmv_question_indirect">Mời bạn chọn tuần chơi!</string>
+    <string name="bmv_time_out">Đã hết thời gian tương tác! Bạn có muốn trả lời các câu hỏi của tuần không?</string>
+    <string name="bmv_has_not_connect">Không có kết nối mạng. Bạn vui lòng kết nối mạng!</string>
+    <string name="bmv_answer_player_true">Trả lời: Đúng</string>
+    <string name="bmv_answer_player_false">Trả lời: Sai</string>
+    <string name="bmv_question_numble">Câu số: </string>
+    <string name="bmv_time_in_vtv3">Đang trong thời gian tương tác với VTV3. Bạn có muốn tham gia trả lời câu hỏi ?</string>
+    <string name="bmv_login_false">Đăng nhập thất bại !</string>
+    <string name="bmv_join_vtv3_false">Kết nối tới VTV3 thất bại! Bạn có muốn kết nối lại?</string>
+
+    <string-array name="dnt_languages">
+        <item>us</item>
+        <item>vn</item>
+        <item>ru</item>
+        <item>fr</item>
+        <item>it</item>
+        <item>ar</item>
+        <item>id</item>
+        <item>es</item>
+        <item>bs</item>
+    </string-array>
+
+</resources>

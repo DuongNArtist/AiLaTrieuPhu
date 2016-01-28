@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkg_main"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_rank_logo"
+        android:layout_width="@dimen/dnt_logo_size"
+        android:layout_height="@dimen/dnt_logo_size"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@drawable/img_logo_en"
+        android:src="@drawable/img_logo_en" />
+
+    <ImageView
+        android:id="@+id/iv_rank_title"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@drawable/img_rank_en"
+        android:src="@drawable/img_rank_en" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_rank_vtv3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dnt_margin"
+            android:layout_weight="1"
+            android:background="@drawable/btn_rank_vtv3_0"
+            android:text="@string/bmv_rank_vtv3"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/bt_rank_all"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dnt_margin"
+            android:layout_weight="1"
+            android:background="@drawable/btn_rank_vtv3_1"
+            android:text="@string/bmv_rank_all"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_ranking"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dnt_margin"
+        android:background="@drawable/bkg_list_rank"
+        android:divider="@drawable/bkg_gradient"
+        android:dividerHeight="1dp"
+        android:listSelector="#00000000"
+        android:padding="@dimen/dnt_padding"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dnt_dialog_width"
+    android:layout_height="@dimen/dnt_dialog_height"
+    android:background="@drawable/bkg_dialog"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/dnt_margin"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/dnt_helper_buddy"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/bt_ok"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dnt_margin"
+        android:background="@drawable/btn_option"
+        android:text="@string/dnt_ok"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
